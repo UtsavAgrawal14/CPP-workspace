@@ -1,0 +1,6 @@
+19:52:53 **** Rebuild of configuration Debug for project CountFactors ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Count.o "..\\Count.cpp" 
+g++ -o CountFactors.exe Count.o 
+c:/program files/gcc/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file CountFactors.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
