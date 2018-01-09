@@ -28,7 +28,7 @@ int main() {
 		std::cout<<counter++<<".) ";
 		for(int j = 0; j < n; ++j){
 			if(i & (1<<j)){
-				std::cout<<arr[j]<<" ";
+				std::cout<<arr[j]<<"  ";
 			}
 		}
 		std::cout<<std::endl;
