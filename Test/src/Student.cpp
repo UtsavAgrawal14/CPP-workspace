@@ -45,5 +45,5 @@ void Student::setMarks(int marks){
 }
 
 Student::~Student(){
-	std::cout<<"BoooooM! Object destroyed"<<std::endl;
+	std::cout<<"BoooooM! "<<this->name<<" destroyed"<<std::endl;
 }
