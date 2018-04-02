@@ -32,18 +32,18 @@ int Student::getMarks() {
 	return this->marks;
 }
 
-void Student::setName(std::string name){
-	this->name=name;
+void Student::setName(std::string name) {
+	this->name = name;
 }
 
-void Student::setRollNo(std::string){
-	this->rollNo=rollNo;
+void Student::setRollNo(std::string) {
+	this->rollNo = rollNo;
 }
 
-void Student::setMarks(int marks){
-	this->marks=marks;
+void Student::setMarks(int marks) {
+	this->marks = marks;
 }
 
-Student::~Student(){
-	std::cout<<"BoooooM! "<<this->name<<" destroyed"<<std::endl;
+Student::~Student() {
+	std::cout << "BoooooM! " << this->name << " destroyed" << std::endl;
 }

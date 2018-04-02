@@ -15,14 +15,12 @@ bool hasSum(const std::vector<int>, int);
 int main() {
 
 	std::cout << "Enter array elements :\n";
-	fflush(stdin);
 	std::vector<int> arr;
 	int elem;
 	do {
 		std::cin>>elem;;
 		arr.push_back(elem);
 	} while (elem != -1);
-	fflush(stdin);
 	std::cout<< "Enter the sum to be searched:\n";
 	std::cin>>elem;
 	std::cout<<"Have we found the elements with given sum?: "<<hasSum(arr, elem);
